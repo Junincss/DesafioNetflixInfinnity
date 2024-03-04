@@ -10,9 +10,11 @@ body {
   color: azure;
 }
 section.hanna {
-  height: 90vh;
-  width: 80rem;
-  margin-bottom: 3em;
+  display: flex;
+  flex-direction: column;
+  width: 119vw;
+  height: 100vh;
+  align-items: center;
 }
 figure {
   display: flex;
@@ -22,8 +24,8 @@ figure {
   align-items: center;
 }
 figure > img {
-  height: 300px;
-  width: 550px;
+  height: 400px;
+  width: 860px;
 }
 figcaption {
   display: flex;
@@ -83,6 +85,9 @@ form {
   color: antiquewhite;
   font-weight: 900;
 }
+main {
+  margin-top: 120px;
+}
 .ver-mais {
   margin-left: 0px;
   align-self: flex-start;
@@ -106,7 +111,8 @@ h4 {
 }
 figure.imagescolection > img {
   margin-left: 0px;
-  width: 180px;
+  width: 215px;
+  height: 300px;
   border: solid 1px;
   border-radius: 8px;
   /* margin-left: 2rem; */
